@@ -9,10 +9,10 @@ The dataset that will be used for the analysis includes trip data from all trips
 
 
 Findings to be Done: 
-* Borough Trends - Citi Bike and Yellow Taxi 
-* Taxi and Citi bike Customer segmentation 
-* Taxi pickups and drop off location 
-* Yellow Taxi Travel time 
+* Neighbourhood Trends - Citi Bike
+* Citi bike Customer segmentation 
+* Taxi pickups and drop off location affecting the Citi Bike
+* Yellow Taxi vs Citi Bike Travel time 
 * Hot-spot locations and peak-demand hours
 * Weather affecting the business
 * Trends during various seasons
