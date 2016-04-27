@@ -7,7 +7,7 @@ url = 'https://s3.amazonaws.com/tripdata/{}{}-citibike-tripdata.zip'
 
 
 # Download the data for all 12 month for the year 2014
-for j in range(1, 2):
+for j in range(1, 13):
     i = "%02d" % j
     print (i)
     r = requests.get(url.format('2014', i), stream = True)
@@ -30,7 +30,7 @@ for j in range(1, 2):
 
 
 # Download the data for all 12 month for the year 2015
-for j in range(1, 3):
+for j in range(1, 13):
     i = "%02d" % j
     print (i)
     r = requests.get(url.format('2015', i), stream = True)
