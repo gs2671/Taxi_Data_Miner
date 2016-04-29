@@ -24,4 +24,8 @@ def main():
 	data_frame = read_data(file)
 	data_frame.to_csv('2015_Weather_Condition.csv', sep=',')
 
+    file = 'weather_2014'
+    data_frame = read_data(file)
+    data_frame.to_csv('2014_Weather_Condition.csv', sep=',')
+
 if __name__=='__main__':main()

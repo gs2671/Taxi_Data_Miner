@@ -20,7 +20,7 @@ for line in sys.stdin:
     values = line.split(',')
 
 
-    if 'start station id' in line or 'start_station_id' in line:
+    if 'start station id' in line or 'start_station_id' in line or 'Time' in line:
         continue
 
     if 'weather' in filename:
