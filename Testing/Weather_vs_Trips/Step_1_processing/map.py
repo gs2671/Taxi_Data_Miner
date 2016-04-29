@@ -25,8 +25,8 @@ for line in sys.stdin:
 
     if 'weather' in filename:
         try:
-            key = '{}'.format(values[0])
-            items = '{}^{}'.format('W',values[1])
+            key = '{}^{}'.format(values[0],'W')
+            items = '{}'.format(values[1])
             print '%s\t%s'%(key,items)
         except: 
             pass
@@ -38,14 +38,14 @@ for line in sys.stdin:
             day = date[:10].strip()
             month,day,year = day.split('/')
             month = '%02d'%int(month)
+            day = '%02d'%int(day)
             year = year[:4]
             timestamp = year+'_'+month+'_'+day+'_'
             time = values[1].strip('"')[-5:].split(':')[0]
             time = '%02d'%int(time)
             timestamp = timestamp+str(time)
-            key = '{}'.format(timestamp)
-            items = '{}^{}'.format('T',1)
-            print '%s\t%s'%(key,items)
+            key = '{}^{}'.format(timestamp,'T')
+            print '%s\t%s'%(key,1)
         except:
             pass
 
