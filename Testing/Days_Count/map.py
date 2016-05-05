@@ -18,7 +18,7 @@ for line in sys.stdin:
         if startdate.lower() == 'starttime':
                 continue
 
-        mon,day,yr = startdate.split("/")
+        mon,day,yr = startdate.split("-")
         year = int(yr[:4])
         day = int(day)
         mon = int(mon)

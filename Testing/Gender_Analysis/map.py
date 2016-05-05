@@ -12,7 +12,7 @@ for line in sys.stdin:
         gen = tmp[14]
         gen = gen.strip('"')
         if time != 'starttime' and gen != 'gender' :
-                mon,day,yr = time.split("/")
+                mon,day,yr = time.split("-")
                 mon = int(mon[:2])
                 print '%s,%s\t%s'%(gen,mon,1)
 

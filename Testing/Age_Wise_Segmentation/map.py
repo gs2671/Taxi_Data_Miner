@@ -13,7 +13,7 @@ for line in sys.stdin:
         time = tmp[1]
         time = time.strip('"')
         if time != 'starttime':
-                day,mon,yr = time.split("/")
+                day,mon,yr = time.split("-")
                 year = int(yr[:4])
 
 

@@ -12,7 +12,7 @@ for line in sys.stdin:
 	if day.lower() == 'starttime':
 		continue
 	if day:
-		month,day,year = day.split('/') 
+		month,day,year = day.split('-') 
 		year = year[:4]
 
 	tmp = int(month)
