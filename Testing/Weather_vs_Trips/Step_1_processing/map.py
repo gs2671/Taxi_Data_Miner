@@ -36,7 +36,7 @@ for line in sys.stdin:
         try:
             date = values[1].strip('"')[:10]
             day = date[:10].strip()
-            month,day,year = day.split('/')
+            month,day,year = day.split('-')
             month = '%02d'%int(month)
             day = '%02d'%int(day)
             year = year[:4]

@@ -37,7 +37,7 @@ for line in sys.stdin:
                 try:
                         year = int(values[13].strip('"'))
                         date = values[1].strip('"')[:10]
-                        time = int(date.split('/')[2][:4])
+                        time = int(date.split('-')[2][:4])
                         start_stationid = int(values[3].strip('"'))
                         end_station = int(values[7].strip('"'))
                         age = time-year

@@ -25,7 +25,7 @@ for line in sys.stdin:
                 try:
                         year = int(values[13].strip('"'))
                         date = values[1].strip('"')[:10]
-                        time = int(date.split('/')[2][:4])
+                        time = int(date.split('-')[2][:4])
                         age = time-year
                         gender = 'M' if int(values[14].strip('"')) == 1 else 'F'
                         duration = int(values[0].strip('"'))/60
