@@ -3,21 +3,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>f1679d5e-8910-4221-9981-31be1402b79a</ProjectGuid>
+    <ProjectGuid>5dc53a6c-ab02-4b5b-86f5-72c5f6d8a753</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>map3.py</StartupFile>
+    <StartupFile>reduce.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>NYCNeighbourhood_Analysis</Name>
-    <RootNamespace>NYCNeighbourhood_Analysis</RootNamespace>
-    <LaunchProvider>Standard Python launcher</LaunchProvider>
-    <CommandLineArguments>
-    </CommandLineArguments>
-    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
-    <InterpreterArguments>
-    </InterpreterArguments>
+    <Name>Hood2HoodOverTime</Name>
+    <RootNamespace>Hood2HoodOverTime</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -28,15 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="map.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="map2.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="map3.py">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="map.py" />
     <Compile Include="reduce.py">
       <SubType>Code</SubType>
     </Compile>

@@ -11,16 +11,12 @@ from datetime import datetime
 from datetime import date
 
 def findNeighborhood(location, index, neighborhoods, recursionTimes):
-   
-
     if recursionTimes > 0:
         return -1
     match = index.intersection((location[0], location[1], location[0], location[1]))
     for a in match:
         if any(map(lambda x: x.contains_point(location), neighborhoods[a][1])):
             return a
-
-
     n = random.randint(1, 4)
 
     if n == 1:
@@ -67,10 +63,8 @@ def readNeighborhood(shapeFilename, index, neighborhoods):
 
 index = rtree.Index()
 neighborhoods = []
-readNeighborhood('hooddata', index, neighborhoods)
-#reduce_file=open('C:\Users\guru316\GITHub\Taxi_Data_Miner\Testing\NYCNeighbourhood_Analysis\Outputt\\NeihghbourhoodReduce.csv','w')
+readNeighborhood('C:\Users\guru316\Desktop\DSGA1004BigData\Project\Neighbourhood Information\ZillowNeighborhoods-NY.shp', index, neighborhoods)
 
-#for line in open('C:\Users\guru316\Desktop\DSGA1004BigData\\Project\\CitiBike\\Citibike_04Dec15.csv','r').readlines():
 for line in sys.stdin:
     if("start station name" in line):
         continue
@@ -78,10 +72,6 @@ for line in sys.stdin:
     tripduration,starttime,stoptime,startstationid,startstationname,startstationlatitude,startstationlongitude,endstationid,endstationname,endstationlatitude,endstationlongitude,bikeid,usertype,birthyear,gender= line.split(",")
     st_point = float(startstationlongitude),float(startstationlatitude)
     en_point = float(endstationlongitude),float(endstationlatitude)
-
-    #pickup_location = float(values[6]), float(values[5])
-    #dropoff_location = float(values[10]), float(values[9])
-    #pickupDate = values[1].strip('"')[:10]
 
     pickup_neighborhood = findNeighborhood(st_point, index, neighborhoods, 0)
     dropoff_neighborhood = findNeighborhood(en_point, index, neighborhoods, 0)
