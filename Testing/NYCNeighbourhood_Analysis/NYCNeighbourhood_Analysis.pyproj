@@ -28,12 +28,6 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="map.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="map2.py">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="map3.py">
       <SubType>Code</SubType>
     </Compile>
