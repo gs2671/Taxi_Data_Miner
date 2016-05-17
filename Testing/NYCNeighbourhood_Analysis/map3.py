@@ -10,44 +10,17 @@ import os
 from datetime import datetime
 from datetime import date
 
-def findNeighborhood(location, index, neighborhoods, recursionTimes):
+def findNhood(location, index, neighborhoods):
     if recursionTimes > 0:
         return -1
     match = index.intersection((location[0], location[1], location[0], location[1]))
     for a in match:
         if any(map(lambda x: x.contains_point(location), neighborhoods[a][1])):
             return a
-    n = random.randint(1, 4)
-
-    if n == 1:
-        longitude = location[0] + 0.01
-        latitude = location[1]
-        newLocation = (longitude, latitude)
-        X = findNeighborhood(newLocation, index, neighborhoods, recursionTimes + 1)
-        return X
-    elif n == 2:
-        longitude = location[0] - 0.01
-        latitude = location[1]
-        newLocation = (longitude, latitude)
-        X = findNeighborhood(newLocation, index, neighborhoods, recursionTimes + 1)
-        return X
-    elif n == 3:
-        longitude = location[0]
-        latitude = location[1] + 0.01
-        newLocation = (longitude, latitude)
-        X = findNeighborhood(newLocation, index, neighborhoods, recursionTimes + 1)
-        return X
-    elif n == 4:
-        longitude = location[0]
-        latitude = location[1] - 0.01
-        newLocation = (longitude, latitude)
-        X = findNeighborhood(newLocation, index, neighborhoods, recursionTimes + 1)
-        return X
-
     return -1
 
 
-def readNeighborhood(shapeFilename, index, neighborhoods):
+def readNhood(shapeFilename, index, neighborhoods):
     sf = shapefile.Reader(shapeFilename)
     for sr in sf.shapeRecords():
         if sr.record[1] not in [ 'Bronx', 'New York', 'Kings', 'Queens']: continue
@@ -63,7 +36,7 @@ def readNeighborhood(shapeFilename, index, neighborhoods):
 
 index = rtree.Index()
 neighborhoods = []
-readNeighborhood('C:\Users\guru316\Desktop\DSGA1004BigData\Project\Neighbourhood Information\ZillowNeighborhoods-NY.shp', index, neighborhoods)
+readNhood('C:\Users\guru316\Desktop\DSGA1004BigData\Project\Neighbourhood Information\ZillowNeighborhoods-NY.shp', index, neighborhoods)
 
 for line in sys.stdin:
     if("start station name" in line):
@@ -73,8 +46,8 @@ for line in sys.stdin:
     st_point = float(startstationlongitude),float(startstationlatitude)
     en_point = float(endstationlongitude),float(endstationlatitude)
 
-    pickup_neighborhood = findNeighborhood(st_point, index, neighborhoods, 0)
-    dropoff_neighborhood = findNeighborhood(en_point, index, neighborhoods, 0)
+    pickup_neighborhood = findNhood(st_point, index, neighborhoods)
+    dropoff_neighborhood = findNhood(en_point, index, neighborhoods)
     #print neighborhoods[pickup_neighborhood][0]
                 
     pickupRegion = neighborhoods[pickup_neighborhood][0]

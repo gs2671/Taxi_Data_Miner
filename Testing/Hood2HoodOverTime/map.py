@@ -3,8 +3,8 @@ import sys
 from datetime import datetime
 #shape_collection=fiona.open("C:\Users\guru316\Desktop\DSGA1004BigData\Project\Neighbourhood Information\ZillowNeighborhoods-NY.shp")
 reduce_file=open('C:\Users\guru316\GITHub\Taxi_Data_Miner\Testing\Hood2HoodOverTime\Output\\NeihghbourhoodReduce.csv','w') 
-#for line in sys.stdin:
-for line in open('C:\Users\guru316\Desktop\DSGA1004BigData\Project\CitiBike\\CitiBikeTrip_with_Hood.csv','r').readlines():
+for line in sys.stdin:
+#for line in open('C:\Users\guru316\Desktop\DSGA1004BigData\Project\CitiBike\\CitiBikeTrip_with_Hood.csv','r').readlines():
     try:
         line = line.strip()
         key,value=line.split('|')
@@ -16,6 +16,7 @@ for line in open('C:\Users\guru316\Desktop\DSGA1004BigData\Project\CitiBike\\Cit
             key=pickup_hood+"|"+starthour
             value="1"
             str= "%s,%s\n" %(key,value)
-            reduce_file.write(str)
+            #reduce_file.write(str)
+            print str
     except:
         print line

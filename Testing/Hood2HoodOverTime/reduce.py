@@ -4,8 +4,8 @@ import sys
 prev_key=None
 count=0
 outputfile=open('C:\Users\guru316\GITHub\Taxi_Data_Miner\Testing\Hood2HoodOverTime\Output\\NeihghbourhoodFinal.csv','w')
-for line in open('C:\Users\guru316\GITHub\Taxi_Data_Miner\Testing\Hood2HoodOverTime\Output\\NeihghbourhoodReduce.csv','r').readlines():
-#for line in sys.stdin:
+#for line in open('C:\Users\guru316\GITHub\Taxi_Data_Miner\Testing\Hood2HoodOverTime\Output\\NeihghbourhoodReduce.csv','r').readlines():
+for line in sys.stdin:
     line=line.strip()
     key,value=line.split(',')
     if(prev_key==None):
@@ -18,4 +18,5 @@ for line in open('C:\Users\guru316\GITHub\Taxi_Data_Miner\Testing\Hood2HoodOverT
         count=0
     count+=1
 str= "%s\t%d\n" % (prev_key,count)
-outputfile.write(str)
+#outputfile.write(str)
+print str

@@ -95,4 +95,5 @@ resultfile.write("Citibike Station,Citi_Lat,Citi_Long,Subway Station,Sub_Lat,Sub
 for key, value in citibike_dict.iteritems():
     results=list(idx.nearest((value.x,value.y,value.x,value.y),1))
     sub=int(results[0])
-    resultfile.write("%s,%f,%f,%s,%f,%f\n" %(key,value.x,value.y,subway_stat_dict[sub],subway_dict[sub].x,subway_dict[sub].y))
+    #resultfile.write("%s,%f,%f,%s,%f,%f\n" %(key,value.x,value.y,subway_stat_dict[sub],subway_dict[sub].x,subway_dict[sub].y))
+    print "%s,%f,%f,%s,%f,%f\n" %(key,value.x,value.y,subway_stat_dict[sub],subway_dict[sub].x,subway_dict[sub].y)
