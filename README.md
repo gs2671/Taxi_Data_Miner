@@ -20,6 +20,10 @@ Findings
 * Weather affecting the business
 * Trends during various seasons
 
+Detailed Report
+==============
+https://docs.google.com/document/d/1VD2mECZXfceuVZ6Mmi2i2W8eqU5oefoPNvCJ6lch5gM/edit#heading=h.beirlango7on
+
 API Used
 ==============
 1) Weather Data
