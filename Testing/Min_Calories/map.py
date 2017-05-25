@@ -13,6 +13,7 @@ for line in sys.stdin:
         key = ''
         age = 0
         items = ''
+        filename = 'tripdata'
 
         line = line.strip('\n')
         values = line.split(',')
@@ -21,14 +22,14 @@ for line in sys.stdin:
         if 'start station id' in line or 'start_station_id' in line:
                 continue
 
-        if 'tripdata' in filename and (values[12].strip('"') == 'Subscriber' or values[12].strip('"') == 'subscriber'):
+        if 'tripdata' in filename and (values[12] == 'Subscriber' or values[12] == 'subscriber'):
                 try:
-                        year = int(values[13].strip('"'))
-                        date = values[1].strip('"')[:10]
-                        time = int(date.split('-')[2][:4])
+                        year = int(values[13])
+                        date = values[1][:10] 
+                        time = int(date.split('-')[0][:4])
                         age = time-year
-                        gender = 'M' if int(values[14].strip('"')) == 1 else 'F'
-                        duration = int(values[0].strip('"'))/60
+                        gender = 'M' if int(values[14]) == 1 else 'F'
+                        duration = int(values[0])/60
 
                         if gender == 'M':
                             calories = ( (age*0.2017) - (180 * 0.09036) + (110*0.6309) - 55.0969) * (duration/ 4.184)

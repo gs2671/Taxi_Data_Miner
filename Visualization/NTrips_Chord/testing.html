@@ -1,0 +1,33 @@
+
+
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Trip Data Set</title>
+    <style>
+
+      path.chord {
+          fill-opacity: .67;
+          stroke: #000;
+          stroke-width: .5px;
+      }
+
+    </style>
+  </head>
+
+  <body>
+
+    <h1>Trip Data Set</h1>
+
+    <script src="d3.min.js" charset="utf-8"></script>
+    <script src="Chord.js"></script>
+
+    <script>
+      createGraph("tripJSON", chordParse);
+
+    </script>
+
+  </body>
+</html>

@@ -6,13 +6,7 @@ for line in sys.stdin:
         key = 0
         line = line.strip()
         tmp = line.split(",")
-
-        #getting hot spot station
-        stationid = tmp[3]
-        stationid = stationid.split('"')
-        key = stationid[1]
-
-        if key.lower() == 'start station id':
+        if 'start station id' in line:
                 continue
-
+        key = tmp[3]
         print '%s\t%s'%(key,1)

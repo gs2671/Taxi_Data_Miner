@@ -23,25 +23,20 @@ for line in sys.stdin:
     if 'start station id' in line or 'start_station_id' in line or 'Time' in line:
         continue
 
-    if 'weather' in filename:
-        try:
-            key = '{}^{}'.format(values[0],'W')
-            items = '{}'.format(values[1])
-            print '%s\t%s'%(key,items)
-        except: 
-            pass
+    if 'Weather' in filename:
+        key = '{}^{}'.format(values[0],'W')
+        items = '{}'.format(values[1])
+        print '%s\t%s'%(key,items)
 
 
     if 'tripdata' in filename:
         try:
-            date = values[1].strip('"')[:10]
-            day = date[:10].strip()
-            month,day,year = day.split('-')
+            date = values[1][:10]
+            year,month,day = date.split('-')
             month = '%02d'%int(month)
             day = '%02d'%int(day)
-            year = year[:4]
             timestamp = year+'_'+month+'_'+day+'_'
-            time = values[1].strip('"')[-5:].split(':')[0]
+            time = values[1][-8:].split(':')[0]
             time = '%02d'%int(time)
             timestamp = timestamp+str(time)
             key = '{}^{}'.format(timestamp,'T')

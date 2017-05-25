@@ -6,15 +6,11 @@ for line in sys.stdin:
 	line = line.strip()
 	splits = line.split(',')
 
-	day = splits[1]
-	day = day.split('"')
-	day = day[1]
-	if day.lower() == 'starttime':
+	if 'starttime' in line:
 		continue
-	if day:
-		month,day,year = day.split('-') 
-		year = year[:4]
 
+	day = splits[1]
+	year,month,dat = day.split('-') 
 	tmp = int(month)
 	if tmp <= 4 and tmp >= 3:
 		print '%s'% ('Spring')

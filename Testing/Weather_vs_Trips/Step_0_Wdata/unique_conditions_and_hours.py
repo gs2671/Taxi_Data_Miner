@@ -20,10 +20,9 @@ def read_data(file_name):
 
 
 def main():
-	file = 'weather_2015'
-	data_frame = read_data(file)
-	data_frame.to_csv('2015_Weather_Condition.csv', sep=',')
-
+    file = 'weather_2015'
+    data_frame = read_data(file)
+    data_frame.to_csv('2015_Weather_Condition.csv', sep=',')
     file = 'weather_2014'
     data_frame = read_data(file)
     data_frame.to_csv('2014_Weather_Condition.csv', sep=',')

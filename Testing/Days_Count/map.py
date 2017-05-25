@@ -10,17 +10,15 @@ for line in sys.stdin:
         line = line.strip()
         tmp = line.split(",")
 
-        #getting days count
-        startdate = tmp[1]
-        startdate = startdate.split('"')
-        startdate = startdate[1]
-
-        if startdate.lower() == 'starttime':
+        if 'starttime' in line:
                 continue
 
-        mon,day,yr = startdate.split("-")
-        year = int(yr[:4])
-        day = int(day)
+        #getting days count
+        startdate = tmp[1]
+
+        yr,mon,day = startdate.split("-")
+        year = int(yr)
+        day = int(day[:2])
         mon = int(mon)
 
         date = datetime(year,mon,day)

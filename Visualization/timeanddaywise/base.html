@@ -1,0 +1,21 @@
+<head>
+  <!-- Plotly.js -->
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+
+<body>
+  
+  <div id="myDiv"><!-- Plotly chart will be drawn inside this DIV --></div>
+  <script>
+var data = [
+  {
+    z: [[76,42,43,43,28], [20,23,24,44,27], [42,44,24,23,43],[81,92,96,95,89]],
+    x: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+    y: ['Morning', 'Afternoon', 'Evening','Night'],
+    type: 'heatmap'
+  }
+];
+
+Plotly.newPlot('myDiv', data);
+  </script>
+</body>

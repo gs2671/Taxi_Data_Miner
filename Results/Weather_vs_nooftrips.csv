@@ -1,0 +1,33 @@
+year,weather_type,count
+2015,Clear,5602275
+2015,Fog,3245
+2015,Haze,383883
+2015,Heavy Rain,33362
+2015,Heavy Snow,2341
+2015,Light Freezing Rain,817
+2015,Light Rain,192745
+2015,Light Snow,20348
+2015,Mist,1690
+2015,Mostly Cloudy,912013
+2015,Overcast,1842663
+2015,Partly Cloudy,696607
+2015,Rain,43484
+2015,Scattered Clouds,562623
+2015,Snow,6623
+2015,Unknown,48496
+2014,Clear,4834512
+2014,Fog,78
+2014,Haze,167590
+2014,Heavy Rain,23360
+2014,Heavy Snow,0
+2014,Light Freezing Rain,0
+2014,Light Rain,208892
+2014,Light Snow,11214
+2014,Mist,78
+2014,Mostly Cloudy,1087260
+2014,Overcast,1895220
+2014,Partly Cloudy,746416
+2014,Rain,53998
+2014,Scattered Clouds,546778
+2014,Snow,0
+2014,Unknown,109960

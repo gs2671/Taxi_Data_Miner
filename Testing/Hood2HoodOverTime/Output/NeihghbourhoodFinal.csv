@@ -1,0 +1,571 @@
+Battery Park|Boerum Hill	4
+Battery Park|Central Park	1
+Battery Park|Chelsea	281
+Battery Park|Chinatown	67
+Battery Park|Clinton	179
+Battery Park|Downtown	50
+Battery Park|East Village	53
+Battery Park|Financial District	960
+Battery Park|Fort Green	20
+Battery Park|Garment District	86
+Battery Park|Gramercy	82
+Battery Park|Greenwich Village	202
+Battery Park|Little Italy	21
+Battery Park|Lower East Side	263
+Battery Park|Midtown	134
+Battery Park|Murray Hill	32
+Battery Park|North Sutton Area	8
+Battery Park|Soho	213
+Battery Park|Tribeca	886
+Battery Park|UNKNOWN	20
+Battery Park|Upper West Side	44
+Battery Park|West Village	369
+Battery Park|Williamsburg	2
+Bedford-Stuyvesant|Boerum Hill	13
+Bedford-Stuyvesant|Chelsea	1
+Bedford-Stuyvesant|Chinatown	1
+Bedford-Stuyvesant|Downtown	19
+Bedford-Stuyvesant|East Village	12
+Bedford-Stuyvesant|Financial District	1
+Bedford-Stuyvesant|Fort Green	286
+Bedford-Stuyvesant|Garment District	1
+Bedford-Stuyvesant|Gramercy	4
+Bedford-Stuyvesant|Greenwich Village	10
+Bedford-Stuyvesant|Little Italy	4
+Bedford-Stuyvesant|Lower East Side	12
+Bedford-Stuyvesant|Midtown	1
+Bedford-Stuyvesant|Murray Hill	1
+Bedford-Stuyvesant|North Sutton Area	2
+Bedford-Stuyvesant|Soho	2
+Bedford-Stuyvesant|Tribeca	2
+Bedford-Stuyvesant|UNKNOWN	24
+Bedford-Stuyvesant|West Village	1
+Bedford-Stuyvesant|Williamsburg	36
+Boerum Hill|Battery Park	6
+Boerum Hill|Bedford-Stuyvesant	18
+Boerum Hill|Chelsea	2
+Boerum Hill|Cobble Hill	1
+Boerum Hill|Downtown	166
+Boerum Hill|East Village	11
+Boerum Hill|Financial District	33
+Boerum Hill|Fort Green	291
+Boerum Hill|Garment District	4
+Boerum Hill|Gramercy	22
+Boerum Hill|Greenwich Village	27
+Boerum Hill|Little Italy	4
+Boerum Hill|Lower East Side	28
+Boerum Hill|Midtown	4
+Boerum Hill|Murray Hill	5
+Boerum Hill|Soho	1
+Boerum Hill|Tribeca	29
+Boerum Hill|UNKNOWN	130
+Boerum Hill|Upper West Side	1
+Boerum Hill|West Village	17
+Boerum Hill|Williamsburg	55
+Central Park|Battery Park	2
+Central Park|Boerum Hill	1
+Central Park|Chelsea	14
+Central Park|Clinton	40
+Central Park|East Village	13
+Central Park|Garment District	16
+Central Park|Gramercy	28
+Central Park|Greenwich Village	2
+Central Park|Lower East Side	1
+Central Park|Midtown	156
+Central Park|Murray Hill	14
+Central Park|North Sutton Area	6
+Central Park|Tribeca	2
+Central Park|Upper West Side	46
+Central Park|West Village	3
+Chelsea|Battery Park	258
+Chelsea|Boerum Hill	8
+Chelsea|Central Park	23
+Chelsea|Chinatown	106
+Chelsea|Clinton	1580
+Chelsea|Cobble Hill	2
+Chelsea|Downtown	57
+Chelsea|East Village	1211
+Chelsea|Financial District	295
+Chelsea|Fort Green	132
+Chelsea|Garment District	3148
+Chelsea|Gramercy	4927
+Chelsea|Greenwich Village	2571
+Chelsea|Little Italy	205
+Chelsea|Lower East Side	386
+Chelsea|Midtown	1717
+Chelsea|Murray Hill	1028
+Chelsea|North Sutton Area	84
+Chelsea|Soho	533
+Chelsea|Tribeca	462
+Chelsea|UNKNOWN	13
+Chelsea|Upper West Side	162
+Chelsea|West Village	2334
+Chelsea|Williamsburg	33
+Chinatown|Battery Park	88
+Chinatown|Bedford-Stuyvesant	1
+Chinatown|Boerum Hill	28
+Chinatown|Chelsea	107
+Chinatown|Clinton	38
+Chinatown|Downtown	131
+Chinatown|East Village	353
+Chinatown|Financial District	565
+Chinatown|Fort Green	82
+Chinatown|Garment District	50
+Chinatown|Gramercy	214
+Chinatown|Greenwich Village	320
+Chinatown|Little Italy	142
+Chinatown|Lower East Side	1312
+Chinatown|Midtown	61
+Chinatown|Murray Hill	48
+Chinatown|North Sutton Area	13
+Chinatown|Soho	176
+Chinatown|Tribeca	396
+Chinatown|UNKNOWN	55
+Chinatown|Upper West Side	5
+Chinatown|West Village	89
+Chinatown|Williamsburg	92
+Clinton|Battery Park	186
+Clinton|Boerum Hill	2
+Clinton|Central Park	27
+Clinton|Chelsea	2093
+Clinton|Chinatown	40
+Clinton|Downtown	29
+Clinton|East Village	297
+Clinton|Financial District	162
+Clinton|Fort Green	76
+Clinton|Garment District	1672
+Clinton|Gramercy	837
+Clinton|Greenwich Village	370
+Clinton|Little Italy	22
+Clinton|Lower East Side	140
+Clinton|Midtown	3909
+Clinton|Murray Hill	561
+Clinton|North Sutton Area	65
+Clinton|Soho	137
+Clinton|Tribeca	230
+Clinton|UNKNOWN	18
+Clinton|Upper West Side	313
+Clinton|West Village	425
+Clinton|Williamsburg	5
+Cobble Hill|Battery Park	1
+Cobble Hill|Boerum Hill	7
+Cobble Hill|Chinatown	1
+Cobble Hill|Clinton	1
+Cobble Hill|Downtown	6
+Cobble Hill|East Village	2
+Cobble Hill|Financial District	1
+Cobble Hill|Fort Green	26
+Cobble Hill|Garment District	1
+Cobble Hill|Gramercy	3
+Cobble Hill|Greenwich Village	3
+Cobble Hill|Lower East Side	6
+Cobble Hill|Midtown	5
+Cobble Hill|Soho	2
+Cobble Hill|UNKNOWN	36
+Cobble Hill|Williamsburg	27
+Downtown|Battery Park	19
+Downtown|Bedford-Stuyvesant	23
+Downtown|Boerum Hill	175
+Downtown|Central Park	1
+Downtown|Chelsea	58
+Downtown|Chinatown	119
+Downtown|Clinton	15
+Downtown|Cobble Hill	19
+Downtown|East Village	300
+Downtown|Financial District	144
+Downtown|Fort Green	835
+Downtown|Garment District	37
+Downtown|Gramercy	174
+Downtown|Greenwich Village	271
+Downtown|Little Italy	27
+Downtown|Lower East Side	321
+Downtown|Midtown	58
+Downtown|Murray Hill	28
+Downtown|North Sutton Area	7
+Downtown|Soho	73
+Downtown|Tribeca	102
+Downtown|UNKNOWN	279
+Downtown|Upper West Side	1
+Downtown|West Village	80
+Downtown|Williamsburg	333
+East Side|Soho	1
+East Village|Battery Park	53
+East Village|Bedford-Stuyvesant	14
+East Village|Boerum Hill	10
+East Village|Central Park	6
+East Village|Chelsea	1165
+East Village|Chinatown	413
+East Village|Clinton	219
+East Village|Cobble Hill	4
+East Village|Downtown	305
+East Village|Financial District	578
+East Village|Fort Green	61
+East Village|Garment District	436
+East Village|Gramercy	3496
+East Village|Greenwich Village	4480
+East Village|Little Italy	544
+East Village|Lower East Side	2511
+East Village|Midtown	720
+East Village|Murray Hill	336
+East Village|North Sutton Area	89
+East Village|Soho	672
+East Village|Tribeca	322
+East Village|UNKNOWN	63
+East Village|Upper West Side	45
+East Village|West Village	735
+East Village|Williamsburg	107
+Financial District|Battery Park	988
+Financial District|Bedford-Stuyvesant	3
+Financial District|Boerum Hill	32
+Financial District|Central Park	4
+Financial District|Chelsea	297
+Financial District|Chinatown	494
+Financial District|Clinton	153
+Financial District|Cobble Hill	2
+Financial District|Downtown	190
+Financial District|East Village	537
+Financial District|Fort Green	82
+Financial District|Garment District	164
+Financial District|Gramercy	486
+Financial District|Greenwich Village	410
+Financial District|Little Italy	154
+Financial District|Lower East Side	1889
+Financial District|Midtown	120
+Financial District|Murray Hill	167
+Financial District|North Sutton Area	15
+Financial District|Soho	249
+Financial District|Tribeca	1195
+Financial District|UNKNOWN	196
+Financial District|Upper West Side	40
+Financial District|West Village	280
+Financial District|Williamsburg	82
+Fort Green|Battery Park	25
+Fort Green|Bedford-Stuyvesant	316
+Fort Green|Boerum Hill	276
+Fort Green|Chelsea	116
+Fort Green|Chinatown	74
+Fort Green|Clinton	76
+Fort Green|Cobble Hill	21
+Fort Green|Downtown	877
+Fort Green|East Village	80
+Fort Green|Financial District	110
+Fort Green|Garment District	91
+Fort Green|Gramercy	181
+Fort Green|Greenwich Village	172
+Fort Green|Little Italy	23
+Fort Green|Lower East Side	96
+Fort Green|Midtown	98
+Fort Green|Murray Hill	68
+Fort Green|North Sutton Area	10
+Fort Green|Soho	30
+Fort Green|Tribeca	45
+Fort Green|UNKNOWN	340
+Fort Green|Upper West Side	8
+Fort Green|West Village	23
+Fort Green|Williamsburg	766
+Garment District|Battery Park	108
+Garment District|Bedford-Stuyvesant	2
+Garment District|Boerum Hill	7
+Garment District|Central Park	43
+Garment District|Chelsea	2763
+Garment District|Chinatown	54
+Garment District|Clinton	2070
+Garment District|Downtown	24
+Garment District|East Village	492
+Garment District|Financial District	225
+Garment District|Fort Green	106
+Garment District|Gramercy	4262
+Garment District|Greenwich Village	812
+Garment District|Little Italy	35
+Garment District|Lower East Side	242
+Garment District|Midtown	5000
+Garment District|Murray Hill	2225
+Garment District|North Sutton Area	124
+Garment District|Soho	212
+Garment District|Tribeca	256
+Garment District|UNKNOWN	24
+Garment District|Upper West Side	224
+Garment District|West Village	392
+Garment District|Williamsburg	19
+Gramercy|Battery Park	76
+Gramercy|Bedford-Stuyvesant	6
+Gramercy|Boerum Hill	29
+Gramercy|Central Park	19
+Gramercy|Chelsea	5016
+Gramercy|Chinatown	256
+Gramercy|Clinton	794
+Gramercy|Cobble Hill	1
+Gramercy|Downtown	148
+Gramercy|East Village	3675
+Gramercy|Financial District	427
+Gramercy|Fort Green	111
+Gramercy|Garment District	3822
+Gramercy|Greenwich Village	3633
+Gramercy|Little Italy	290
+Gramercy|Lower East Side	1402
+Gramercy|Midtown	2965
+Gramercy|Murray Hill	2652
+Gramercy|North Sutton Area	323
+Gramercy|Soho	481
+Gramercy|Tribeca	266
+Gramercy|UNKNOWN	98
+Gramercy|Upper West Side	154
+Gramercy|West Village	818
+Gramercy|Williamsburg	60
+Greenwich Village|Battery Park	261
+Greenwich Village|Bedford-Stuyvesant	13
+Greenwich Village|Boerum Hill	24
+Greenwich Village|Central Park	4
+Greenwich Village|Chelsea	2771
+Greenwich Village|Chinatown	352
+Greenwich Village|Clinton	323
+Greenwich Village|Cobble Hill	2
+Greenwich Village|Downtown	224
+Greenwich Village|East Village	4378
+Greenwich Village|Financial District	438
+Greenwich Village|Fort Green	180
+Greenwich Village|Garment District	836
+Greenwich Village|Gramercy	2948
+Greenwich Village|Little Italy	551
+Greenwich Village|Lower East Side	1678
+Greenwich Village|Midtown	594
+Greenwich Village|Murray Hill	383
+Greenwich Village|North Sutton Area	48
+Greenwich Village|Soho	1217
+Greenwich Village|Tribeca	583
+Greenwich Village|UNKNOWN	83
+Greenwich Village|Upper West Side	55
+Greenwich Village|West Village	2493
+Greenwich Village|Williamsburg	146
+inton|Chelsea	1
+Little Italy|Battery Park	64
+Little Italy|Bedford-Stuyvesant	6
+Little Italy|Boerum Hill	12
+Little Italy|Chelsea	352
+Little Italy|Chinatown	340
+Little Italy|Clinton	96
+Little Italy|Cobble Hill	2
+Little Italy|Downtown	72
+Little Italy|East Village	970
+Little Italy|Financial District	364
+Little Italy|Fort Green	46
+Little Italy|Garment District	144
+Little Italy|Gramercy	500
+Little Italy|Greenwich Village	1140
+Little Italy|Lower East Side	1252
+Little Italy|Midtown	86
+Little Italy|Murray Hill	86
+Little Italy|North Sutton Area	10
+Little Italy|Soho	616
+Little Italy|Tribeca	458
+Little Italy|UNKNOWN	60
+Little Italy|Upper West Side	4
+Little Italy|West Village	364
+Little Italy|Williamsburg	92
+Lower East Side|Battery Park	592
+Lower East Side|Bedford-Stuyvesant	24
+Lower East Side|Boerum Hill	76
+Lower East Side|Central Park	4
+Lower East Side|Chelsea	946
+Lower East Side|Chinatown	2636
+Lower East Side|Clinton	208
+Lower East Side|Downtown	726
+Lower East Side|East Village	3048
+Lower East Side|Financial District	2081
+Lower East Side|Fort Green	90
+Lower East Side|Garment District	219
+Lower East Side|Gramercy	1366
+Lower East Side|Greenwich Village	1569
+Lower East Side|Little Italy	739
+Lower East Side|Midtown	309
+Lower East Side|Murray Hill	181
+Lower East Side|North Sutton Area	36
+Lower East Side|Soho	705
+Lower East Side|Tribeca	850
+Lower East Side|UNKNOWN	244
+Lower East Side|Upper West Side	34
+Lower East Side|West Village	279
+Lower East Side|Williamsburg	267
+Midtown|Battery Park	166
+Midtown|Bedford-Stuyvesant	2
+Midtown|Boerum Hill	13
+Midtown|Central Park	151
+Midtown|Chelsea	1838
+Midtown|Chinatown	74
+Midtown|Clinton	4294
+Midtown|Cobble Hill	1
+Midtown|Downtown	40
+Midtown|East Village	753
+Midtown|Financial District	158
+Midtown|Fort Green	97
+Midtown|Garment District	4471
+Midtown|Gramercy	3063
+Midtown|Greenwich Village	671
+Midtown|Little Italy	47
+Midtown|Lower East Side	311
+Midtown|Murray Hill	2056
+Midtown|North Sutton Area	777
+Midtown|Soho	114
+Midtown|Tribeca	233
+Midtown|UNKNOWN	36
+Midtown|Upper West Side	1064
+Midtown|West Village	369
+Midtown|Williamsburg	37
+Murray Hill|Battery Park	42
+Murray Hill|Bedford-Stuyvesant	2
+Murray Hill|Boerum Hill	8
+Murray Hill|Central Park	17
+Murray Hill|Chelsea	1028
+Murray Hill|Chinatown	65
+Murray Hill|Clinton	716
+Murray Hill|Downtown	40
+Murray Hill|East Village	439
+Murray Hill|Financial District	170
+Murray Hill|Fort Green	74
+Murray Hill|Garment District	2140
+Murray Hill|Gramercy	3133
+Murray Hill|Greenwich Village	464
+Murray Hill|Little Italy	47
+Murray Hill|Lower East Side	239
+Murray Hill|Midtown	2113
+Murray Hill|North Sutton Area	146
+Murray Hill|Soho	72
+Murray Hill|Tribeca	107
+Murray Hill|UNKNOWN	26
+Murray Hill|Upper West Side	81
+Murray Hill|West Village	156
+Murray Hill|Williamsburg	23
+North Sutton Area|Battery Park	11
+North Sutton Area|Central Park	4
+North Sutton Area|Chelsea	95
+North Sutton Area|Chinatown	7
+North Sutton Area|Clinton	77
+North Sutton Area|Downtown	3
+North Sutton Area|East Village	76
+North Sutton Area|Financial District	8
+North Sutton Area|Fort Green	1
+North Sutton Area|Garment District	129
+North Sutton Area|Gramercy	307
+North Sutton Area|Greenwich Village	59
+North Sutton Area|Little Italy	5
+North Sutton Area|Lower East Side	22
+North Sutton Area|Midtown	748
+North Sutton Area|Murray Hill	138
+North Sutton Area|Soho	8
+North Sutton Area|Tribeca	8
+North Sutton Area|UNKNOWN	5
+North Sutton Area|Upper West Side	50
+North Sutton Area|West Village	4
+North Sutton Area|Williamsburg	1
+nwich Village|Williamsburg	1
+Soho|Battery Park	206
+Soho|Boerum Hill	14
+Soho|Central Park	1
+Soho|Chelsea	560
+Soho|Chinatown	168
+Soho|Clinton	136
+Soho|Cobble Hill	6
+Soho|Downtown	85
+Soho|East Village	510
+Soho|Financial District	243
+Soho|Fort Green	35
+Soho|Garment District	215
+Soho|Gramercy	339
+Soho|Greenwich Village	1058
+Soho|Little Italy	276
+Soho|Lower East Side	601
+Soho|Midtown	104
+Soho|Murray Hill	66
+Soho|North Sutton Area	8
+Soho|Tribeca	522
+Soho|UNKNOWN	25
+Soho|Upper West Side	11
+Soho|West Village	678
+Soho|Williamsburg	21
+Tribeca|Battery Park	911
+Tribeca|Bedford-Stuyvesant	3
+Tribeca|Boerum Hill	34
+Tribeca|Central Park	2
+Tribeca|Chelsea	404
+Tribeca|Chinatown	383
+Tribeca|Clinton	217
+Tribeca|Cobble Hill	1
+Tribeca|Downtown	73
+Tribeca|East Village	280
+Tribeca|Financial District	1319
+Tribeca|Fort Green	58
+Tribeca|Garment District	178
+Tribeca|Gramercy	229
+Tribeca|Greenwich Village	528
+Tribeca|Little Italy	215
+Tribeca|Lower East Side	964
+Tribeca|Midtown	187
+Tribeca|Murray Hill	103
+Tribeca|North Sutton Area	13
+Tribeca|Soho	540
+Tribeca|UNKNOWN	56
+Tribeca|Upper West Side	46
+Tribeca|West Village	454
+Tribeca|Williamsburg	27
+UNKNOWN|Battery Park	17
+UNKNOWN|Bedford-Stuyvesant	13
+UNKNOWN|Boerum Hill	147
+UNKNOWN|Chelsea	33
+UNKNOWN|Chinatown	57
+UNKNOWN|Clinton	14
+UNKNOWN|Cobble Hill	75
+UNKNOWN|Downtown	325
+UNKNOWN|East Village	43
+UNKNOWN|Financial District	227
+UNKNOWN|Fort Green	344
+UNKNOWN|Garment District	27
+UNKNOWN|Gramercy	56
+UNKNOWN|Greenwich Village	79
+UNKNOWN|Little Italy	38
+UNKNOWN|Lower East Side	221
+UNKNOWN|Midtown	39
+UNKNOWN|Murray Hill	32
+UNKNOWN|North Sutton Area	4
+UNKNOWN|Soho	36
+UNKNOWN|Tribeca	58
+UNKNOWN|West Village	11
+UNKNOWN|Williamsburg	697
+Upper West Side|Battery Park	23
+Upper West Side|Bedford-Stuyvesant	1
+Upper West Side|Central Park	19
+Upper West Side|Chelsea	169
+Upper West Side|Chinatown	8
+Upper West Side|Clinton	378
+Upper West Side|Cobble Hill	1
+Upper West Side|Downtown	2
+Upper West Side|East Village	26
+Upper West Side|Financial District	25
+Upper West Side|Fort Green	8
+Upper West Side|Garment District	161
+Upper West Side|Gramercy	176
+Upper West Side|Greenwich Village	63
+Upper West Side|Little Italy	3
+Upper West Side|Lower East Side	36
+Upper West Side|Midtown	999
+Upper West Side|Murray Hill	74
+Upper West Side|North Sutton Area	75
+Upper West Side|Soho	10
+Upper West Side|Tribeca	53
+Upper West Side|UNKNOWN	1
+Upper West Side|West Village	44
+West Village|Battery Park	372
+West Village|Bedford-Stuyvesant	1
+West Village|Boerum Hill	9
+West Village|Central Park	6
+West Village|Chelsea	2206
+West Village|Chinatown	100
+West Village|Clinton	396
+West Village|Downtown	68
+West Village|East Village	632
+West Village|Financial District	277
+West Village|Fort Green	30
+West Village|Garment District	514
+West Village|Gramercy	821
+West Village|Greenwich Village	2129
+West Village|Little Italy	183
+West Village|Lower East Side	87

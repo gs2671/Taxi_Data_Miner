@@ -8,18 +8,11 @@ for line in sys.stdin:
         line = line.strip()
         tmp = line.split(",")
 
-        #getting hot spot station
-        stationid = tmp[3]
-        stationid = stationid.split('"')
-        key1 = stationid[1]
-
-        endstationid = tmp[7]
-        endstationid = endstationid.split('"')
-        key2 = endstationid[1]
-
-        if key1.lower() == 'start station id':
+        if 'start station id' in line:
                 continue
-
+        #getting hot spot station
+        key1 = tmp[3]
+        key2 = tmp[7]
         key = key1+':'+key2
 
         print '%s\t%s'%(key,1)

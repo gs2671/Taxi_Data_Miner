@@ -34,7 +34,7 @@ for line in sys.stdin:
 				val1 = j.split(',')
 				val2 = i.split(',')
 				diff = int(val2[0])-int(val1[0])
-				print '%s,%s,%s'%(val1[1],val2[1],diff)
+				print '%s\t%s\t%s'%(val1[1],val2[1],diff)
 		est_list = []
 		dis_list = []
 		old_key = new_key
@@ -48,6 +48,6 @@ for i in dis_list:
 		val1 = j.split(',')
 		val2 = i.split(',')
 		diff = int(val2[0])-int(val1[0])
-		print '%s,%s,%s'%(val1[1],val2[1],diff)
+		print '%s\t%s\t%s'%(val1[1],val2[1],diff)
 est_list = []
 dis_list = []

@@ -7,12 +7,10 @@ for line in sys.stdin:
         line = line.strip()
         tmp = line.split(",")
 
+        if 'bikeid' in line:
+                continue
+
         bikeid = tmp[11]
         duration = tmp[0]
-
-        bikeid = bikeid.strip('"')
-        duration = duration.strip('"')
-
-        if bikeid != 'bikeid' and duration != 'tripduration' :
-                print '%s\t%s'%(bikeid,duration)
+        print '%s\t%s'%(bikeid,duration)
 
